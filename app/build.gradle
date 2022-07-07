@@ -61,5 +61,6 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
 
     implementation fileTree(dir: "libs", include: ["*.jar"])
-    implementation 'org.slf4j:slf4j-api:1.7.36'
+
+    implementation 'com.itextpdf.android:kernel-android:7.2.2'
 }

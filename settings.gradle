@@ -10,6 +10,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://repo.itextsupport.com/android"
+        }
     }
 }
 rootProject.name = "Jetpack_Compose_Pick_Edit_Save_PDF_itext7_Example"
